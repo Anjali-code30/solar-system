@@ -7,11 +7,13 @@ An interactive Solar System built using HTML and CSS.
 This project shows planets moving around their orbits, just like the real solar system.
 <br>
 💻 Technologies Used
-HTML
+<br>
+ HTML
 <br>
 CSS (animations)
 <br>
 ✨ Features
+<br>
 Planets moving around the Sun
 <br>
 Orbit animations using CSS
