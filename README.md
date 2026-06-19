@@ -14,15 +14,15 @@ CSS (animations)
 <br>
 ✨ Features
 <br>
-Planets moving around the Sun
+Planets moving around the Sun.
 <br>
-Orbit animations using CSS
+Orbit animations using CSS.
 
 🚀 How to Run
 
 Download or clone this repository
 Open index.html in your browser
-Watch the planets move! 🌟
+Watch the planets move! 
 
 Developer
 Anjali Agrawal
