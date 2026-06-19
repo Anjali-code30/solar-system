@@ -19,7 +19,6 @@ Planets moving around the Sun.
 Orbit animations using CSS.
 
 🚀 How to Run
-
 Download or clone this repository
 Open index.html in your browser
 Watch the planets move! 
