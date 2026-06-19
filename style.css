@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://t4.ftcdn.net/jpg/06/56/40/39/360_F_656403907_xuQ9qZTbcFBCXI2OjjilpTo5Dl4R0d6u.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.sun {
+    height: 90px;
+    width: 90px;
+    background-image: url("https://cdn.britannica.com/00/254900-050-AECD7629/The-sun-has-had-no-sunspots-for-almost-two-weeks.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 46%;
+    left: 48%;
+    box-shadow: -4px 2px 56px#f9c05f;
+}
+
+.mercury-orbit,
+.venus-orbit,
+.Earth-orbit,
+.Mars-orbit,
+.jupiter-orbit,
+.sapturn-orbit,
+.uranus-orbit,
+.neptune-orbit {
+    border-radius: 50%;
+    background-image: none;
+    border: 1px solid white;
+    position: absolute;
+    top: 46%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.mercury-orbit {
+    height: 120px;
+    width: 125px;
+
+}
+
+.venus-orbit {
+    height: 190px;
+    width: 195px;
+
+}
+
+
+.Earth-orbit {
+    height: 270px;
+    width: 275px;
+
+}
+
+.Mars-orbit {
+    height: 350px;
+    width: 355px;
+
+}
+
+.jupiter-orbit {
+    height: 430px;
+    width: 435px;
+}
+
+.sapturn-orbit {
+    height: 490px;
+    width: 500px;
+}
+
+.uranus-orbit {
+    height: 550px;
+    width: 570px;
+}
+
+.neptune-orbit {
+    height: 620px;
+    width: 640px;
+}
+
+.sapturn {
+    height: 33px;
+    width: 33px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/066/795/689/small_2x/saturn-sixth-planet-from-sun-is-known-for-its-stunning-rings-composed-of-ice-and-rock-particles-this-gas-giant-is-prominent-feature-in-our-solar-system-png.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    box-shadow: -4px 2px 56px#f9c05f;
+    animation: orbit6 13s linear infinite;
+}
+
+@keyframes orbit6 {
+    from {
+        transform: rotate(0deg) translateX(240px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(240px) rotate(-360deg);
+    }
+}
+
+.uranus {
+    height: 30px;
+    width: 30px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU1MCENEt2LVeK5oiBz1UvoC83osh8IfSThA&s");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 45.9%;
+    left: 47%;
+    box-shadow: -4px 2px 56px#f9c05f;
+    animation: orbit7 17s linear infinite;
+
+}
+
+@keyframes orbit7 {
+    from {
+        transform: rotate(0deg) translateY(273px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateY(273px) rotate(-360deg);
+    }
+}
+
+.neptune {
+    height: 28px;
+    width: 28px;
+    background-image: url("https://img.freepik.com/premium-psd/neptune-blue-marble-planet-with-swirling-clouds-isolated-white_1016236-5450.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    box-shadow: -4px 2px 56px#f9c05f;
+    animation: orbit8 19s linear infinite;
+
+
+}
+
+
+@keyframes orbit8 {
+    from {
+        transform: rotate(0deg) translateX(230px) translateY(220px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(230px) translateY(220px) rotate(-360deg);
+    }
+}
+
+.jupiter {
+    height: 36px;
+    width: 36px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8b163QUaVrYaRDoyqWKgUf6lMEToCOqxuA&s");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    box-shadow: -4px 2px 56px#f9c05f;
+
+    animation: orbit5 11s linear infinite;
+}
+
+@keyframes orbit5 {
+    from {
+        transform: rotate(0deg) translateX(214px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(214px) rotate(-360deg);
+    }
+}
+
+.sapturn {}
+
+.Mars {
+    height: 30px;
+    width: 30px;
+    background-image: url("https://www.solarsystemscope.com/spacepedia/images/handbook/renders/mars.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 45%;
+    box-shadow: -4px 2px 56px#f9c05f;
+    animation: orbit4 9s linear infinite;
+}
+
+@keyframes orbit4 {
+    from {
+        transform: rotate(0deg) translateX(183px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(183px) rotate(-360deg);
+    }
+}
+
+.Earth {
+    height: 40px;
+    width: 40px;
+    background-image: url("https://www.solarsystemscope.com/spacepedia/images/handbook/renders/earth.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 46%;
+    left: 39%;
+    box-shadow: -4px 2px 56px#f9c05f;
+    animation: orbit3 7s linear infinite;
+}
+
+@keyframes orbit3 {
+    from {
+        transform: rotate(0deg) translateX(130px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(130px) rotate(-360deg);
+    }
+}
+
+.venus {
+    height: 25px;
+    width: 25px;
+    background-image: url("https://www.solarsystemscope.com/spacepedia/images/handbook/renders/venus.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    box-shadow: -4px 2px 56px #f9c05f;
+    animation: orbit2 5s linear infinite;
+}
+
+@keyframes orbit2 {
+    from {
+        transform: rotate(0deg)translateX(100px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+.mercury {
+    height: 20px;
+    width: 20px;
+    background-image: url("https://www.coolaboo.com/wp-content/uploads/2019/02/mercury.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 44%;
+    left: 35%;
+    box-shadow: -4px 2px 56px#f9c05f;
+    animation: orbit 3s linear infinite;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg)translateX(65px)rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(65px)rotate(-360deg);
+    }
+}
+
+p {
+    background: none;
+    color: white;
+    position: absolute;
+    top: -12px;
+    left: -15px; 
+}
+
+
