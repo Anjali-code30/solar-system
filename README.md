@@ -1,5 +1,6 @@
 # solar-system
 🌍 Solar System
+<br>
 An interactive Solar System built using HTML and CSS.
 <br>
 🪐 About
